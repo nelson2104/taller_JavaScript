@@ -1,0 +1,88 @@
+.contenido {
+    text-align: left;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+html {
+    box-shadow: inset 10px 10px 61px 0px rgb(233, 255, 180);
+}
+.acordeon {
+    background-color: aquamarine;
+    display: block;
+    padding: 12px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-shadow: inset 0px 0px 4px 0px rgb(0, 0, 0);
+   
+}
+
+.active, .acordeon:hover {
+    background-color: coral;
+   
+}
+
+.panel {
+    padding: 12px;
+    width: 50%;
+    background-color: rgb(254, 255, 213);
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none;
+    box-shadow: inset 10px 10px 61px -25px rgba(0,0,0,0.75);
+   transition: all .1s ease-in-out;
+
+}
+
+body {
+    background-color: rgb(134, 134, 187);
+    
+}
+
+.contenido a {
+    border: 1px solid black;
+    border-radius: 8px;
+  
+    
+}
+
+.botones{
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    margin-top: 56px;
+}
+
+.botones a {
+    padding: 10px;
+    margin-right: 20px;
+    width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    box-shadow: 7px 13px 54px -12px;
+    box-shadow: inset 0px 0px 4px 0px rgb(0, 0, 0);
+}
+
+.botones a:hover{
+    background-color: rgb(255, 222, 35);
+    transition: all .8s ease-in-out;
+}
+
+hr {
+    margin: 40px;
+}
